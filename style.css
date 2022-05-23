@@ -1,0 +1,137 @@
+body{
+    background-color: silver;
+}
+.hero-image {
+    background-image: url("images/108ba498-ec52-451c-9b57-03a42f908e97.jpg");
+    background-size: cover;
+    background-position: cover;
+    height: 400px; 
+    width: 100%;
+    margin-top: 1em;
+  }
+h1{
+    color: black;
+    background-color: whitesmoke;
+    font-style: unset;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+}
+h2{
+    color: white;
+    background-color: darkslategray;
+    font-style: unset;
+    border-radius: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+h3{
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    text-align: initial;
+}
+h4{
+    font-style: normal;
+    font-weight: 600;
+    color: red;
+    text-align: center;
+    margin: 2em;
+}
+h5{
+    font-style: normal;
+    font-weight: 200;
+    color: red;
+    text-align: center;
+}
+p{
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+.p1{
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+.you{
+    display: flex;
+    width: 10em;
+    margin-left: 9em;
+    margin-bottom: 60em;
+    border-radius: 50%;   
+}
+.me{
+    display: flex;
+    margin-left: 9em;
+}
+.body-side{
+    width: 20em;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.first-subject{
+    border: solid grey 1em;
+    background-color: white;
+    margin: 1em;
+}
+.second-subject{
+    border: solid whitesmoke 1em;
+    margin: 1em;
+}
+.third-subject{
+    border: solid grey 1em;
+    background-color: white;
+    margin: 1em;
+}
+@media (min-width: 980px){
+    .favourite{
+        display: flex;
+    }
+}
+.pic{
+    border-radius: 50%;
+    margin: 1em;
+    padding: 1em;
+}
+.first-history{
+    border: solid whitesmoke 1em;
+    margin: 1em;
+}
+.second-history{
+    border: solid grey 1em;
+    background-color: white;
+    margin: 1em;
+}
+.third-history{
+    border: solid whitesmoke 1em;
+    margin: 1em;
+}
+@media (min-width: 980px){
+    .history{
+        display: flex;
+    }
+}
+.pit{
+    border-radius: 30%;
+    margin: 1em;
+    margin-left: 7em;
+    padding: 1em;
+    width: 9em;
+}
+.footer{
+    color: white;
+    font-weight: 100;
+    background-color: black;
+    border: solid grey 1em;
+    padding: 1em;
+    margin: 3em;
+}
