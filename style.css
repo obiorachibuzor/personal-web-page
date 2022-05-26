@@ -1,5 +1,5 @@
 body{
-    background-color: silver;
+    background-color: rgb(171,219,227);
 }
 .hero-image {
     background-image: url("images/108ba498-ec52-451c-9b57-03a42f908e97.jpg");
@@ -119,7 +119,6 @@ table, th, td {
     .history{
         display: flex;
     }
-}
 .pit{
     border-radius: 30%;
     margin: 1em;
@@ -128,9 +127,9 @@ table, th, td {
     width: 9em;
 }
 .footer{
-    color: white;
+    color: black;
     font-weight: 100;
-    background-color: black;
+    background-color: silver;
     border: solid grey 1em;
     padding: 1em;
     margin: 3em;
